@@ -12,9 +12,18 @@ cabal-dev
 .cabal-sandbox/
 cabal.sandbox.config
 *.prof
-*.aux
 *.hp
 *.eventlog
 .stack-work/
 cabal.project.local
 .HTF/
+
+#LaTeX Beamer
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
