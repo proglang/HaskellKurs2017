@@ -69,15 +69,20 @@ Web: \href{http://www.informatik.uni-freiburg.de/~thiemann}{http://www.informati
 %----------------------------------------------------------------------
 \begin{frame}
   \frametitle{What is Functional Programming?}
-  \begin{LARGE}
-    \begin{center}
-      Functions and values
-      \\[4ex]
-      rather than
-      \\[4ex]
-      Assignments and pointers
-    \end{center}
-  \end{LARGE}
+  \begin{block}<+->{A different approach to programming}
+    \begin{LARGE}
+      \begin{center}
+        Functions and values
+        \\[3ex]
+        rather than
+        \\[3ex]
+        Assignments and pointers
+      \end{center}
+    \end{LARGE}
+  \end{block}
+  \begin{alertblock}<+->{It will make you a better programmer}
+    
+  \end{alertblock}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -85,7 +90,7 @@ Web: \href{http://www.informatik.uni-freiburg.de/~thiemann}{http://www.informati
   \begin{block}<+->{Functional (Haskell)}
 \begin{verbatim}
 x :: Int
-x = 5nn
+x = 5
 \end{verbatim}
     Variable \texttt{x} has value \texttt{5} forever
   \end{block}
@@ -119,7 +124,7 @@ static int f (int x, int y) {
 
 f (42, 16); // who knows?
 \end{verbatim}
-    Return value  depends on non-local variable
+    Return value  depends on non-local variable \texttt{flag}
   \end{block}
 \end{frame}
 
